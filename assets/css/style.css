@@ -29,7 +29,7 @@ body::before {
 @media (min-width: 1024px) {
   body {
     background-attachment: fixed;
-  }
+  }  
 }
 
 a {
@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 #header {
   position: relative;
   width: 100%;
-  padding: 100px 0;
+  padding: 10px 0;
   /* countdown */
 }
 
@@ -119,9 +119,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 575px) {
-  #header .countdown div {
-    width: 70px;
-    padding: 10px 0;
+  #header h2 {
+    width: 100%;
+    padding: 0 5vw;
     margin: 10px 8px;
   }
   #header .countdown div h3 {

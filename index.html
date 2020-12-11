@@ -35,7 +35,7 @@
 			    background-color:transparent;
 			    border:none;
 			    border-bottom:solid 4px #528fff;
-			    width:400px;
+			    width: 30vw;
 			    font-size:16px;
           color: white;
 			}
@@ -46,7 +46,22 @@
           margin-top: 50px;
 			    color:white;
 			    cursor:pointer;
-			}
+      }
+      
+      @media (max-width: 575px) {
+
+        input {
+			    padding:5px;
+          margin: 5px;
+			    background-color:transparent;
+			    border:none;
+			    border-bottom:solid 4px #528fff;
+			    width: 88vw;
+			    font-size:16px;
+          color: white;
+      }
+      
+      }
 </style>
 </head>
 
@@ -162,6 +177,7 @@
               element: document.getElementById('qr-code'),
               size: 200,
               value: 'Creator: Milin N. Khalas'
+              // alert : 'Hello Milin'
           });
       })();
       

@@ -157,7 +157,6 @@
       alert(qrdata);
       qr.set({
           foreground: 'black',
-          alert(qrdata);,
           size: 200,
           value: qrdata
       });
